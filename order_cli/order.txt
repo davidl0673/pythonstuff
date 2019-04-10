@@ -1,0 +1,4 @@
+ostrich meat,3
+dragon eggs,10
+milk toast,4
+milk,1000
