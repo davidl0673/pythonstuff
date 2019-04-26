@@ -17,7 +17,7 @@ def numbers_words(number):
     elif number >=20 and number < 100:
         print(tens[tens_digit] + ones[ones_digit])
     elif number >=100 and number <1000: 
-        print(ones[hundreds] + ' hundred') 
+        print(ones[hundreds] + ' hundred' +
         
 
 numbers_words(639)

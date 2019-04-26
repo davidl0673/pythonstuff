@@ -15,14 +15,19 @@ def numbers_words(number):
     elif number >= 10 and number < 20:
         print(teens[number]) 
     elif number >=20 and number < 100:
-        print(tens[tens_digit] + ones[ones_digit])
-    elif number >99:
+        print(tens[tens_digit] + ones[ones_digit])                       #hundreds teens thingy still 
+    elif number >99 and tens_digit == 1
+        print(hundreds) 
+        
+        
         hundreds = (number)//100
-        tens_digit = (number-(hundreds*100))//10
+        tens_digit = (number //10 % 10)  
         ones_digit = (number)%10
+    
+    
+        
         print(f'number to words is : {ones[hundreds]} hundred {tens[tens_digit]} {ones[ones_digit]}')
-        print(tens_digit)
+       
 
-
-numbers_words(249)
+numbers_words(149)
 
