@@ -1,0 +1,45 @@
+h1{
+    text-align: center
+    
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    
+}
+    
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    
+}
+
+label {
+    padding-right: 10px;
+}
+
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
+} */
+
+header{
+    margin: 50px
+}
+
+
+.burritopic img{
+ width: 50%  
+}
+
+.total{
+    border: 1px solid black;
+
+}
